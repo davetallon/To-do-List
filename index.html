@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Dave\Desktop\Programing docs\VS Code\Projects\To Do list\style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header"> 
+        <img src="https://blog.hubspot.com/hubfs/To_Do_List.png" class="head-image">
+    </div>
+    <div class='title'>
+        <h1>TO DO LIST</h1>
+    </div>
+    <div>
+        <p class="box-space">
+            <div class='box'>
+                <input type="text" id="input" placeholder="Enter task -">
+                <span onclick="newListItem()" class="addBut">Add to List</span>
+                <span onclick="clearText()" class="clearBut">Clear text</span>
+                <label for="deadline" class="deadlineLabel">Deadline:</label>
+                <input type="date" id="deadline" name="taskDeadline">
+            </div>
+        </p>
+    </div>
+
+    <ul id="listItems">
+            <li>This is an example list item.</li>
+            <li class ="checked">This is a 'checked' example</li>
+    </ul>
+
+
+    <script src="C:\Users\Dave\Desktop\Programing docs\VS Code\Projects\To Do list\script.js"></script>
+</body>
+</html>
